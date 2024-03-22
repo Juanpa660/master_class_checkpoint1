@@ -10,9 +10,9 @@
     <!-- Base Link -->
     <link name="base_link">
         <inertial>
-            <mass value="19" />
+            <mass value="5" />
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <inertia ixx="0.4394" ixy="0" ixz="0" iyy="0.4394" iyz="0" izz="0.5938" />
+            <inertia ixx="1.5417" ixy="0" ixz="0" iyy="3.467" iyz="0" izz="4.742" />
         </inertial>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0.15" />
@@ -56,7 +56,7 @@
         <inertial>
             <mass value="1.5" />
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <inertia ixx="0.000008" ixy="0" ixz="0" iyy="0.000008" iyz="0" izz="0.000012"/>
+            <inertia ixx="0.002526666666667" ixy="0" ixz="0" iyy="0.002526666666667" iyz="0" izz="0.005"/>
         </inertial>
         <collision>
             <origin rpy="1.5707 0 0" xyz="0 0 0" />
@@ -89,7 +89,7 @@
         <inertial>
             <mass value="1.5" />
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <inertia ixx="0.000008" ixy="0" ixz="0" iyy="0.000008" iyz="0" izz="0.000012"/>
+            <inertia ixx="0.002526666666667" ixy="0" ixz="0" iyy="0.002526666666667" iyz="0" izz="0.005"/>
         </inertial>
         <collision>
             <origin rpy="1.5707 0 0" xyz="0 0 0" />
@@ -120,18 +120,17 @@
         <inertial>
             <mass value="1.5" />
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <inertia ixx="0.01875" ixy="0" ixz="0" iyy="0.01875" iyz="0" izz="0.01875" />
-            <inertia offset="0 0 0.1" ixx="0.005625" ixy="0" ixz="0" iyy="0.005625" iyz="0" izz="0.005625" />
+            <inertia ixx="0.002526666666667" ixy="0" ixz="0" iyy="0.002526666666667" iyz="0" izz="0.005"/>
         </inertial>
         <!-- Caster wheel support -->
         <collision>
-            <origin rpy="0 0 0" xyz="0 0 0.035" />
+            <origin rpy="0 0 0" xyz="0 0 0.045" />
             <geometry>
                 <sphere radius="0.035" />
             </geometry>
         </collision>
         <visual>
-            <origin rpy="0 0 0" xyz="0 0 0.035" />
+            <origin rpy="0 0 0" xyz="0 0 0.045" />
             <geometry>
                 <sphere radius="0.035" />
             </geometry>
@@ -169,18 +168,17 @@
         <inertial>
             <mass value="1.5" />
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <inertia ixx="0.01875" ixy="0" ixz="0" iyy="0.01875" iyz="0" izz="0.01875" />
-            <inertia offset="0 0 -0.1" ixx="0.005625" ixy="0" ixz="0" iyy="0.005625" iyz="0" izz="0.005625" />
+            <inertia ixx="0.002526666666667" ixy="0" ixz="0" iyy="0.002526666666667" iyz="0" izz="0.005"/>
         </inertial>
         <!-- Caster wheel support -->
         <collision>
-            <origin rpy="0 0 0" xyz="0 0 0.035" />
+            <origin rpy="0 0 0" xyz="0 0 0.045" />
             <geometry>
                 <sphere radius="0.035" />
             </geometry>
         </collision>
         <visual>
-            <origin rpy="0 0 0" xyz="0 0 0.035" />
+            <origin rpy="0 0 0" xyz="0 0 0.045" />
             <geometry>
                 <sphere radius="0.035" />
             </geometry>
@@ -227,7 +225,7 @@
             <updateRate>50</updateRate>
             <leftJoint>joint_left_wheel</leftJoint>
             <rightJoint>joint_right_wheel</rightJoint>
-            <wheelSeparation>0.2</wheelSeparation>
+            <wheelSeparation>0.4</wheelSeparation>
             <wheelDiameter>0.05</wheelDiameter>
             <wheelAcceleration>2.0</wheelAcceleration>
             <wheelTorque>20</wheelTorque>
