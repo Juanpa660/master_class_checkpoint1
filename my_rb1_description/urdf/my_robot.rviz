@@ -1,0 +1,21 @@
+<rviz version="5">
+
+  <config>
+    <cameras>
+      <camera name="top_down" tf_parent="world">
+        <fov y="1.0" />
+        <pose>1.5 0 1.2 0 -0 1.57</pose>
+      </camera>
+    </cameras>
+
+    <displays>
+      <display class="rviz/RobotModel" name="Robot Model" enabled="true">
+        <alpha>1.0</alpha>
+        <fixed_frame_selection>"base_link"</fixed_frame_selection>
+        <root_link_name>"base_link"</root_link_name>
+        <show_axes>false</show_axes>
+        <show_wrench>false</show_wrench>
+      </display>
+    </displays>
+  </config>
+</rviz>
