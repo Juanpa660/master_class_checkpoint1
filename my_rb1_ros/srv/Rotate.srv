@@ -1,0 +1,3 @@
+int32 degrees    # The degrees to rotate
+---
+bool result         # Did it achieve it?
